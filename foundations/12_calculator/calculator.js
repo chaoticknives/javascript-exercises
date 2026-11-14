@@ -17,8 +17,8 @@ const multiply = function(array) {
 };
 
 //`power()`: take two numbers (base and exponent) and return the result of raising the base to that exponent
-const power = function() {
-	
+const power = function(a, b) {
+	return a ** b;
 };
 
 //`factorial()`: given a single number, find its [factorial](https://www.mathsisfun.com/numbers/factorial.html)
